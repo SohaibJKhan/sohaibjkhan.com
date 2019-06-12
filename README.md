@@ -1,4 +1,4 @@
 # sohaibjkhan.com
 Here's the markup for my site!
 
-![Alt text](/sohaibjkhan.com/Screen.png)
+![alt text](https://raw.githubusercontent.com/SohaibJKhan/sohaibjkhan.com/master/Screen.png)
