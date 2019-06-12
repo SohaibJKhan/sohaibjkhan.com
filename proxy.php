@@ -3,6 +3,8 @@
 miniProxy - A simple PHP web proxy. <https://github.com/joshdick/miniProxy>
 Written and maintained by Joshua Dick <http://joshdick.net>.
 miniProxy is licensed under the GNU GPL v3 <http://www.gnu.org/licenses/gpl.html>.
+
+I made some adjustments to the default page. It should say something about the rules of the server.
 */
 
 /****************************** START CONFIGURATION ******************************/
@@ -276,7 +278,7 @@ if (isset($_POST["miniProxyFormAction"])) {
 }
 if (empty($url)) {
     if (empty($startURL)) {
-      die("<html><head><title>Proxy</title></head><body><h1>Welcome to the proxy!</h1>This was originally created by: https://github.com/joshdick/miniProxy <br /><br />Enter a URL and start browsing!:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Enter\" /></form><br><br>Please do not use this proxy for anything illegal, against any rules within your network, or for anything immoral.<br> Define immorality with what you assume a religious fundmentalist would dislike. Thanks!<br><br>I'm also more than happy to give out some free OpenVPN (VPN) keys. I'm limiting it to around 5 for now to test the limitations of the server.<br>The ones given out will always be free. I'll start charging a dollar a month afterward. Just email me if you're interested. I'll remove the message when all the free ones are gone. <br>Same rules above apply.</body></html>");
+      die("<html><head><title>Proxy</title></head><body><h1>Welcome to the proxy!</h1>This was originally created by: https://github.com/joshdick/miniProxy <br /><br />Enter a URL and start browsing!:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Enter\" /></form><br><br>Please do not use this proxy for anything illegal, against any rules within your network, or for anything immoral.</body></html>");
     } else {
       $url = $startURL;
     }
