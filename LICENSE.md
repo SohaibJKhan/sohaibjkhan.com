@@ -1,6 +1,6 @@
 MIT License (edited)
 
-Copyright (c) 2019 Sohaib Khan - http://www.al-nakba-history.com/home.html - Free Palistine.
+Copyright (c) 2019 Sohaib Khan - http://www.al-nakba-history.com/home.html - Free Palestine.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
